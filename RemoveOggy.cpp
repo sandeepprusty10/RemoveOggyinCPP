@@ -2,22 +2,7 @@
 #include<string>
 using namespace std;
 int total=5;
-int main()
-{
-    string names[5]={ "nobita", "bheem", "oggy", "oggy cockroach", "ninja" };
 
-    removeOggy(names);
-    if(OggyIsRemoved(names))
-    {
-        cout<< "Passed!" << endl;
-        return 0;
-    }
-    else
-    {
-        cout<< "Failed!" << endl;
-        return 1;
-    }
-}
 
 void removeOggy(string names[5])
 {
@@ -46,7 +31,7 @@ void removeOggy(string names[5])
     }
 }
 
-bool OggyIsRemoved(string names[total])
+bool OggyIsRemoved(string names[5],int total)
 {
     int name;
     int flag=0;
@@ -67,4 +52,20 @@ bool OggyIsRemoved(string names[total])
     else
         return true;
 
+}
+int main()
+{
+    string names[5]={ "nobita", "bheem", "oggy", "oggy cockroach", "ninja" };
+
+    removeOggy(names);
+    if(OggyIsRemoved(names),total)
+    {
+        cout<< "Passed!" << endl;
+        return 0;
+    }
+    else
+    {
+        cout<< "Failed!" << endl;
+        return 1;
+    }
 }
