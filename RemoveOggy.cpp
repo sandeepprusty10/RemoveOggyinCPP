@@ -58,7 +58,7 @@ int main()
     string names[5]={ "nobita", "bheem", "oggy", "oggy cockroach", "ninja" };
 
     removeOggy(names);
-    if(OggyIsRemoved(names),total)
+    if(OggyIsRemoved(names,total))
     {
         cout<< "Passed!" << endl;
         return 0;
