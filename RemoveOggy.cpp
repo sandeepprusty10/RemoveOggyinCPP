@@ -8,14 +8,14 @@ void removeOggy(string names[5])
 {
     int name;
     string base = "oggy";
-    int len = base.length();
+    unsigned int len = base.size();
     int pointer;
     int removepointer;
 
 
     for(name=4;name>=0;name--)
     {
-        if(names[name].length()>= len)
+        if(names[name].size()>= len)
         {
            if((base.compare((names[name]).substr(0,len)))==0)
            {
