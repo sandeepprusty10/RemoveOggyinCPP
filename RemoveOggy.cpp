@@ -8,7 +8,7 @@ void removeOggy(string names[5])
 {
     int name;
     string base = "oggy";
-    int len = base.size();
+    unsigned int len = base.size();
     int pointer;
     int removepointer;
 
