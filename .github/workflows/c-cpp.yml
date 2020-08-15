@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: make
       
-    - name: testcheck
-      run: ./testcheck
+    - name: testchecker
+      run: ./testchecker
